@@ -1,3 +1,4 @@
+import 'package:AIRA/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: Container(),
+      home: HomePage(),
     );
   }
 }
