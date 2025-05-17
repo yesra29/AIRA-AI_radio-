@@ -37,8 +37,11 @@ dependencies:
   velocity_x: ^4.3.1
   audioplayers: ^6.4.0
   google_fonts: ^6.2.1
-  alan_voice: ^4.9.0
+  porcupine_flutter: ^3.0.4
   flutter_exif_rotation: ^0.5.2
+  speech_to_text: ^7.0.0
+  flutter_sound: ^9.28.0
+  permission_handler: ^12.0.0+1
 
 dev_dependencies:
   flutter_test:
@@ -65,7 +68,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
      - assets/radio.json
-  #   - images/a_dot_ham.jpeg
+     - assets/wake_words/Hello-AIRA_en_android_v3_0_0.ppn
+     - assets/vocabulary/AIRA-cheetah-v2.1.0-25-05-17--09-28-43.pv
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
